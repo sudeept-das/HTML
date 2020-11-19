@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Visitors information</title>
+</head>
+<body>
+	<h1>Visitors information</h1>
+	<hr>
+	
+	<form>
+		<table border="1">
+			<tr>
+				<td>Email:</td>
+				<td colspan = "2"><input type="email" style="width:99%;"></td>
+			</tr>
+			<tr>
+				<td>Interest:</td>
+				<td><input type="checkbox" name="Web for Research" value="Web for Research">Web for Research</td>
+				<td><input type="checkbox" name="Purchase" value="Purchase">Purchase</td>
+			</tr>
+			<tr>
+				<td>Select Occupation:</td>
+				<td colspan = "2">
+				<select name="Occupation" style="width:100%;">
+				  <option value="select one" selected>select one</option>
+				  <option value="Teaching">Teaching</option>
+				  <option value="Service">Business</option>
+				  <option value="Medical">Medical</option>
+				  <option value="Business">Business</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Want us to send you junk emails?</td>
+				<td><input type="radio" id="yes" name="email" value="yes"><label for="yes">absolutely</label></td>
+				<td><input type="radio" id="no"name="email" value="no"><label for="no">no way man</label></td>
+			</tr>
+			<tr>
+				<td  colspan = "3"><input type="submit" value="Submit" style="width:100%;"></td>
+			</tr>
+			<tr>
+				<td colspan = "3"><input type="reset" style="width:100%;"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
